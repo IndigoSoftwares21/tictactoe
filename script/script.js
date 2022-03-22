@@ -10,7 +10,7 @@ winner = document.querySelector(".winner"),
 random_btn = document.querySelector(".randombtn"),
 result_text = document.querySelector(".resulttext"),
 playboard = document.querySelector(".playboard");
-//
+////////////////////////////////
 
 
 
