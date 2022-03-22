@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/script.js" defer></script>
+    <title>Indigo Tic Tac Toe</title>
+</head>
+<body>
+    <div class="selectbox">
+        <h3 class="title">Tic Tac Toe</h3>
+        
+
+        <hr>
+        
+        <h4 class="sub_title">Who wants to start?</h4>
+        
+
+        <div class="button_holder">
+
+
+            <button class="xbtn">Player (X)</button>
+            
+            <button class="obtn"> Player (O)</button>
+
+
+
+
+        </div>
+
+        <div class="button_holdercentre">
+
+
+            <button class="randombtn">Random (X/O)</button>
+            
+           
+
+
+
+
+        </div>
+        
+
+        
+
+    </div>
+
+    <!------------------------------------PLAY BOARD-------------------------------------------->
+
+    <div class="playboard">
+        <div class="player_details">
+            <span class="xturn">X's Turn</span>
+            <span class="oturn">O's Turn</span>
+        </div>
+        <div class="play_area">
+            <section class="playrow">
+
+
+                <div id="0" onclick="boxclick(this)" class="box"></div>
+                <div id="1" onclick="boxclick(this)" class="box"></div>
+                <div id="2" onclick="boxclick(this)" class="box"></div>
+
+
+            </section>
+            <section  class="playrow">
+
+
+                <div id="3" onclick="boxclick(this)" class="box"></div>
+                <div id="4" onclick="boxclick(this)" class="box"></div>
+                <div id="5" onclick="boxclick(this)" class="box"></div>
+
+
+            </section>
+            <section class="playrow">
+
+
+                <div id="6" onclick="boxclick(this)" class="box"></div>
+                <div id="7"  onclick="boxclick(this)" class="box"></div>
+                <div id="8" onclick="boxclick(this)" class="box"></div>
+
+
+            </section>
+        </div>
+    </div>
+
+
+<!------------------------------------RESULT-------------------------------------------->
+
+    <div class="result">
+        <p class="resulttext">Player <strong class="winner"></strong> Won The Game</p>
+        <button onclick="location.reload();">Replay</button>
+        <a href="#">Developed By Precious Orjiude</a>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
