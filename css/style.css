@@ -227,3 +227,25 @@ span.xturn.active
     transform: scale(1.1);
 
 }
+
+
+/*****************MEDIA QUERIES*****************************/
+@media screen and (max-width: 600px) {
+
+ 
+    .selectbox
+    {
+       transform: scale(0.85);   
+    }
+    button
+    {
+    transform: scale(0.95);   
+    }
+
+    .result
+    {
+        font-size: 25px;
+    }
+
+
+}
