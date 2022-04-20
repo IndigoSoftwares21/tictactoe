@@ -1,7 +1,11 @@
 //Selectng all required elements
 const selectBox = document.querySelector(".selectbox"),
+modebox = document.querySelector(".modebox"),
 SelectX_btn = selectBox.querySelector(".xbtn"),
 SelectO_btn = selectBox.querySelector(".obtn"),
+Local_btn = document.querySelector(".localbtn"),
+ai = document.querySelector(".aibtn"),
+Web_btn = document.querySelector(".webbtn"),
 oturn = document.querySelector(".oturn"),
 xturn = document.querySelector(".xturn"),
 totalBoxes = ["0","1","2","3","4","5","6","7","8"],
@@ -19,8 +23,17 @@ playboard = document.querySelector(".playboard");
 window.onload = ()=>
 {
 
-    
-
+  Local_btn.onclick =() =>
+  {
+      modebox.style.display = "none"; 
+      selectBox.style.display = "flex";//hide the select box when you click X
+     
+      
+     }
+     ai.onclick =()=>
+     {
+      window.location.href = "AI/ai.html"
+     }
     SelectX_btn.onclick =() =>
     {
         selectBox.style.display = "none";//hide the select box when you click X

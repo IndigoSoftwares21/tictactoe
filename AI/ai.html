@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="ai.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- SELECT BOX -->
+    <div class="select-box">
+        <header>You vs Computer</header>
+        <div class="content">
+            <div class="title">Choose Your Player</div>
+            <div class="options">
+                <button class="playerX">Player(X)</button>
+                <button class="playerO">Player(O)</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- PLAYBOARD SECTION -->
+    <div class="play-board">
+        <div class="details">
+            <div class="player_details">
+                <span class="xturn">X's Turn</span>
+                <span class="oturn">O's Turn</span>
+            </div>
+        </div>
+        <div class="play-area">
+            <section>
+                <span   id="0" class="box1"></span>
+                <span  id="1" class="box2"></span>
+                <span  id="2" class="box3"></span>
+            </section>
+            <section>
+                <span  id="3" class="box4"></span>
+                <span  id="4" class="box5"></span>
+                <span  id="5" class="box6"></span>
+            </section>
+            <section>
+                <span  id="6" class="box7"></span>
+                <span  id="7" class="box8"></span>
+                <span  id="8" class="box9"></span>
+            </section>
+        </div>
+    </div>
+
+    <!-- result box -->
+
+    <div class="result">
+        <p class="resulttext">Player <strong class="winner"></strong> Won The Game</p>
+        <button onclick="location.reload();">Replay</button>
+        <br>
+        <a href="#">Developed By Precious Orjiude</a>
+    </div>
+    <script src="ai.js"></script>
+
+</body>
+</html>

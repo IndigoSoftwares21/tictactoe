@@ -27,7 +27,7 @@ body
 
 .selectbox
 {
-    display:flex;
+    display:none;
     
     width: 450px;
     height: fit-content;
@@ -39,8 +39,29 @@ body
         
 }
 
+.modebox
+ {
+    display:flex;
+    
+    width: 450px;
+    height: fit-content;
+    background-color: #e7e6e6;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 15px;
+    transition: all 0.5s ease;
+        
+ }
 
 .selectbox:hover
+{
+    box-shadow: 0px 0px 40px #44e3ff;
+        
+      
+    
+    
+}
+.modebox:hover
 {
     box-shadow: 0px 0px 40px #44e3ff;
         
@@ -234,6 +255,10 @@ span.xturn.active
 
  
     .selectbox
+    {
+       transform: scale(0.85);   
+    }
+    .modebox
     {
        transform: scale(0.85);   
     }
