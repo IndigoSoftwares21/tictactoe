@@ -136,7 +136,7 @@ function checkwin() {
   ||
   allBox[2].innerHTML=="X"&&allBox[4].innerHTML=="X"&&allBox[6].innerHTML=="X"
   ||
-  allBox[0]=="X"&&totalBoxes[4]=="X"&&totalBoxes[8]=="X"
+  allBox[0].innerHTML=="X"&&allBox[4].innerHTML=="X"&&allBox[8].innerHTML=="X"
   ||
   //VERTICALS
   allBox[0].innerHTML=="X"&&allBox[3].innerHTML=="X"&&allBox[6].innerHTML=="X"
